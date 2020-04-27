@@ -9,7 +9,7 @@ app.use(morgan("dev"));
 /**
  * Configure Handlerbars
  */
-app.engine("handlebars", exphbs());
+ap.engine("handlebars", exphbs());
 app.set("view engine", "handlebars");
 
 /**
@@ -24,6 +24,4 @@ app.get(["/", "/:name"], (req, res) => {
 });
 
 // tslint:disable-next-line:no-console
-app.listen(8080, () => console.log("App listening on port 8080!"));
-
- 
+app.listen(8080, () => console.log("App listening on port 8080!"))
