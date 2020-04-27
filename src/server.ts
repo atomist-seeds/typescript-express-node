@@ -4,12 +4,12 @@ import * as morgan from "morgan";
 
 /** Create App */
 export const app = express();
-ap.use(morgan("dev"));
+app.use(morgan("dev"));
 
 /**
  * Configure Handlerbars
  */
-apa.engine("handlebars", exphbs());
+app.engine("handlebars", exphbs());
 app.set("view engine", "handlebars");
 
 /**
