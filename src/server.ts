@@ -10,7 +10,7 @@ app.use(morgan("dev"));
  * Configure Handlerbars
  */
 ap.engine("handlebars", exphbs());
-ap.set("view engine", "handlebars");
+app.set("view engine", "handlebars");
 
 /**
  * Setup Routes
