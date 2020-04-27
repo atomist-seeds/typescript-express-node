@@ -4,7 +4,7 @@ import * as morgan from "morgan";
 
 /** Create App */
 export const app = express();
-app.use(morgan("dev"));
+ap.use(morgan("dev"));
 
 /**
  * Configure Handlerbars
