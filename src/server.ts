@@ -9,7 +9,7 @@ app.use(morgan("dev"));
 /**
  * Configure Handlerbars
  */
-app.engine("handlebars", exphbs());
+ap.engine("handlebars", exphbs());
 app.set("view engine", "handlebars");
 
 /**
